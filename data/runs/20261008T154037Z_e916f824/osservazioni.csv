@@ -1,0 +1,2 @@
+fonte,dataset,indicatore,tipo_misura,anno,livello_territoriale,codice_territorio,territorio,cittadinanza,sesso,eta,valore,unita,flag,altre_dimensioni,url_origine,data_estrazione_utc
+Eurostat,tps00157,Persone residenti prive della cittadinanza del Paese di residenza al 1° gennaio,stock,2025,paese,IT,Italy,FOR_STLS,T,TOTAL,5371251,NR,,"{""freq"": ""A""}",https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tps00157?geo=IT&sinceTimePeriod=2025&lang=EN&format=JSON,2026-10-08T15:40:37+00:00

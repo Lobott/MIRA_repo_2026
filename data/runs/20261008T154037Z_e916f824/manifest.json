@@ -1,0 +1,52 @@
+{
+  "attivita": "eurostat",
+  "estratto_utc": "2026-10-08T15:40:37+00:00",
+  "file": [
+    {
+      "path": "runs/20261008T154037Z_e916f824/raw/tps00157.json",
+      "sha256": "5eaa163d3b7d1521094fb00f727961303c9a367582e7b0e9ddabf5452ba5cb84",
+      "size_bytes": 4556
+    },
+    {
+      "path": "runs/20261008T154037Z_e916f824/raw/tps00176.json",
+      "sha256": "490c10a73fa1aabd38331a25be8784c6931712f72ee827236666daf56dbed4de",
+      "size_bytes": 4540
+    },
+    {
+      "path": "runs/20261008T154037Z_e916f824/quality.json",
+      "sha256": "5f3a9435731dd0760003575665a02d8385c745bdbf56247cdd8276eafb5c2b3d",
+      "size_bytes": 135
+    },
+    {
+      "path": "runs/20261008T154037Z_e916f824/osservazioni.csv",
+      "sha256": "a9edc74e534a185ae9aeb5d1ecda500b0f718452192fab5c8bbb0aa7d9cdf6b8",
+      "size_bytes": 509
+    }
+  ],
+  "fonti": [
+    {
+      "dataset": "tps00157",
+      "descrizione": "Persone residenti prive della cittadinanza del Paese di residenza al 1° gennaio",
+      "ente": "Eurostat",
+      "osservazioni": 1,
+      "tipo_misura": "stock",
+      "ultimo_aggiornamento_fonte": "2026-09-25T23:00:00+0200",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tps00157?geo=IT&sinceTimePeriod=2025&lang=EN&format=JSON"
+    },
+    {
+      "dataset": "tps00176",
+      "descrizione": "Immigrazioni annuali (totale, tutte le cittadinanze)",
+      "ente": "Eurostat",
+      "osservazioni": 0,
+      "tipo_misura": "flusso",
+      "ultimo_aggiornamento_fonte": "2026-05-29T23:00:00+0200",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tps00176?geo=IT&sinceTimePeriod=2025&lang=EN&format=JSON"
+    }
+  ],
+  "nota": "La data di estrazione non prova la data di sviluppo del software.",
+  "osservazioni": 1,
+  "run_id": "20261008T154037Z_e916f824",
+  "stato": "completato",
+  "versione_pipeline": "2.0.0",
+  "versione_script_sha256": "ffd1f884e4787a2a7585d8358b0c3b64cfaf52bbd5dd1aaf15ce061166430842"
+}
